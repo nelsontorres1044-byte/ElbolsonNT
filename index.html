@@ -348,6 +348,58 @@
             </div>
         </div>
     </section>
+    <!-- SECCIÓN MAPA DE UBICACIÓN -->
+    <section id="ubicacion" class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="text-sm font-semibold uppercase tracking-wider text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">Cómo llegar</span>
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 mt-3">Ubicación del Loteo</h2>
+                <p class="text-lg text-gray-600 mt-2">
+                    Encontranos al pie del <a href="https://www.google.com/maps/place//data=!4m2!3m1!19sChIJEdeVB2yWG5YRiQOSGoiJ5Yo" target="_blank" class="text-emerald-700 underline font-medium">Cerro Piltriquitrón</a>, en un entorno natural único de El Bolsón.
+                </p>
+            </div>
+
+            <!-- Contenedor del Mapa e Info -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+                
+                <!-- Info y Botón -->
+                <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm space-y-4 lg:col-span-1">
+                    <div class="flex items-start space-x-3">
+                        <div class="p-2 bg-emerald-100 text-emerald-700 rounded-lg">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Coordenadas GPS</h4>
+                            <p class="text-sm text-gray-600 font-mono">41°56'00.4"S 71°30'29.5"W</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        Acceso directo y rodeado de bosque nativo. Hacé clic abajo para abrir la ruta exacta en Google Maps desde tu ubicación actual.
+                    </p>
+
+                    <a href="https://maps.app.goo.gl/v6aEmrJQ2HrE58Jv8" target="_blank" class="w-full flex items-center justify-center bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-3 px-4 rounded-xl transition duration-200 shadow-md">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
+                        Abrir en Google Maps
+                    </a>
+                </div>
+
+                <!-- Iframe del Mapa Embebido -->
+                <div class="lg:col-span-2 h-[400px] w-full rounded-2xl overflow-hidden shadow-md border border-gray-200">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d-71.508194!3d-41.933444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDU2JzAwLjQiUyA3MWKwMzAnMjkuNSJX!5e0!3m2!1ses!2sar!4v1650000000000!5m2!1ses!2sar" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <!-- SECTION 2: Galería de fotos reales del terreno y entorno -->
     <section id="fotos" class="py-16 md:py-24 bg-sand border-b border-stone-200">
